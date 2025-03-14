@@ -4,7 +4,7 @@ import { GeneratePdfDto } from './dto/generate-pdf.dto';
 import { ApiBody, ApiTags } from '@nestjs/swagger';
 
 @ApiTags('PDFs')
-@Controller('generate-pdf')
+@Controller('pdf')
 export class GeneratePdfController {
     constructor(private readonly pdfService: GeneratePdfService) {}
 
